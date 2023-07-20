@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Confirmação - Apagar Contato";
+}
+
+<style>
+    .btn-xl {
+        padding: 0rem 2rem;
+        font-size: 1.5rem;
+    }
+</style>
+
+<div class="text-center">
+    <h5>Realmente deseja apagar este contato (Nome selecionado)?</h5>
+    <div>
+        <a class="btn btn-outline-success btn-xl btn-block" role="button" asp-controller="Clientes" asp-action="Apagar">Sim</a>
+        <a class="btn btn-outline-danger btn-xl btn-block" role="button" asp-controller="Clientes" asp-action="Index">Não</a>
+    </div>
+</div>
